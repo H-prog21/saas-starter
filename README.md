@@ -1,4 +1,4 @@
-# EST - Enterprise SaaS Template
+# Enterprise SaaS Template
 
 A modern, production-ready SaaS application template built with the **2025/2026 optimal stack**: Next.js 15.5, React 19, Tailwind v4, shadcn/ui, Drizzle ORM, and Supabase.
 
