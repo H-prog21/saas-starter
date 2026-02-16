@@ -1,0 +1,31 @@
+# CODEOWNERS file
+# These owners will be requested for review when someone opens a pull request
+
+# Global owners (fallback)
+* @your-username
+
+# Documentation
+/docs/ @your-username
+*.md @your-username
+
+# Configuration files
+*.json @your-username
+*.config.* @your-username
+tsconfig.json @your-username
+
+# Database schema
+/src/db/schema/ @your-username
+
+# Authentication
+/src/lib/supabase/ @your-username
+/src/actions/auth/ @your-username
+
+# API routes
+/src/app/api/ @your-username
+
+# GitHub Actions
+/.github/ @your-username
+
+# Security-sensitive files
+/middleware.ts @your-username
+.env.example @your-username
